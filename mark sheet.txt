@@ -1,0 +1,44 @@
+void main() {
+  
+  
+  var math = 43;
+  var eng = 65;
+  var urdu = 50;
+  var total = 300;
+  var marks = math + eng + urdu;
+  var pers = marks/total*100;
+   print(marks);
+   print(pers);
+  
+  if(marks >= 95){
+    print('your are on A+');
+  }
+  else if(pers >= 85){
+    print('you are on A');
+  }
+  else if(pers >= 75){
+    print('you are on B');
+  }
+  else if(pers >= 65){
+    print('you are on C');
+  }
+  else if(pers >= 55){
+    print('you are on D');
+  }
+  else if(pers >= 44){
+    print('you are on E');
+  }
+  else if(pers <= 33){
+    print('you ars fail');
+  }
+  else if(pers > 100){
+    print('you entered wrong persentage');
+  }
+  else{
+    print('please enter right numbers');
+  }
+ 
+  
+  
+  
+}
